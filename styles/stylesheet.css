@@ -21,3 +21,40 @@ nav{
   width: 75%;
   float: right;
 }
+#events{
+  padding-top: 5%;
+}
+#exec-board{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#exec-board *{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.0em;
+}
+/*headshot will be changed from a box to an image later*/
+#headshot{
+  background-color: #C4C4C4;
+  height: 1.0em;
+  width: 1.0em;
+}
+#programmer-buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+#programmer{
+  color: #FFFFFF;
+  background-color: #0069AA;
+  padding: 0.5em;
+  width: 25%;
+  border-radius: 15px;
+  margin: 1%;
+}
