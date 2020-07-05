@@ -1,1 +1,23 @@
-
+*{
+  text-align: center;
+}
+nav{
+  font-weight: bold;
+  font-size: 1.1em;
+  background: #0069AA;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  color: #FFFFFF;
+  padding: 0.5em;
+}
+#name{
+  width: 25%;
+  float: left;
+}
+#options{
+  width: 75%;
+  float: right;
+}
