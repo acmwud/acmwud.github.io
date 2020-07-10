@@ -13,6 +13,16 @@ nav{
   color: #FFFFFF;
   padding: 0.5em;
 }
+
+button {
+  background-color: #0069AA;
+  color: white;
+  text-align: center;
+  width: 10%;
+  height: 3.5em;
+  border-radius: 10px;
+}
+
 #name{
   width: 25%;
   float: left;
@@ -57,4 +67,8 @@ nav{
   width: 25%;
   border-radius: 15px;
   margin: 1%;
+}
+
+.mentor-button {
+  margin: 1em 3.5em 1em 3.5em;
 }
