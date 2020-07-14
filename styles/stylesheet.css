@@ -13,6 +13,20 @@ nav{
   color: #FFFFFF;
   padding: 0.5em;
 }
+
+button {
+  background-color: #0069AA;
+  color: white;
+  text-align: center;
+  width: 14%;
+  height: 3.5em;
+  padding: 1em;
+  border-radius: 10px;
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 #name{
   width: 25%;
   float: left;
@@ -57,4 +71,19 @@ nav{
   width: 25%;
   border-radius: 15px;
   margin: 1%;
+}
+
+.mentor-button {
+  margin: 1em 3.5em 1.5em 3.5em;
+}
+
+.project-button {
+  margin: 1em 2em 1em 2em;
+}
+
+.our-projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
