@@ -14,6 +14,18 @@ nav{
   padding: 0.5em;
 }
 
+#options a {
+  color: white;
+  text-decoration: none;
+}
+
+#options a:active, #options a:hover {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 0.3em;
+}
+
 button {
   background-color: #0069AA;
   color: white;
@@ -71,6 +83,12 @@ button {
   width: 25%;
   border-radius: 15px;
   margin: 1%;
+}
+
+.heading, p {
+  color: #0069AA;
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
+  font-weight: bold;
 }
 
 .mentor-button {
