@@ -1,6 +1,8 @@
 *{
   text-align: center;
 }
+
+
 nav{
   font-weight: bold;
   font-size: 1.1em;
@@ -30,13 +32,14 @@ button {
   background-color: #0069AA;
   color: white;
   text-align: center;
-  width: 14%;
+  width: 20%;
   height: 3.5em;
   padding: 1em;
   border-radius: 10px;
   font-family: "Trebuchet MS", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 1.1em;
+  flex-direction:column;
 }
 
 p {
@@ -57,7 +60,7 @@ p {
 }
 #exec-board{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -76,7 +79,7 @@ p {
 }
 #programmer-buttons{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   align-self: center;
   justify-content: center;
@@ -98,6 +101,8 @@ p {
 
 .mentor-button {
   margin: 1em 3.5em 1.5em 3.5em;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .project-button {
@@ -109,4 +114,22 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
 }
+
+
+
+@media only screen and (max-width: 768px){
+
+  button{
+    flex-wrap:wrap;
+    flex-grow: 1;
+    width: auto;
+  }
+  .our-projects{
+    flex-wrap:wrap;
+    flex-direction: column;
+
+  }
+
+  }
