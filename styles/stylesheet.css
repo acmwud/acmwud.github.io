@@ -32,14 +32,14 @@ button {
   background-color: #0069AA;
   color: white;
   text-align: center;
-  width: 20%;
+  width: auto;
   height: 3.5em;
   padding: 1em;
   border-radius: 10px;
   font-family: "Trebuchet MS", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 1.1em;
-  flex-direction:column;
+  flex-direction:column
 }
 
 p {
@@ -79,7 +79,7 @@ p {
 }
 #programmer-buttons{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   align-self: center;
   justify-content: center;
@@ -118,20 +118,33 @@ p {
 }
 
 
-
+/* formatting for small-medium screens and landscape mode on phones */
 @media only screen and (max-width: 768px){
-
   button{
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+  }
+
+  #exec-board {
+    flex-flow: column wrap;
+  }
+}
+/* formatting for small window size or mobile applications */
+@media only screen and (max-width: 480px){
+  button{
+    flex-wrap: wrap;
     flex-grow: 1;
     width: auto;
   }
+
   .our-projects{
     flex-direction: column;
   }
+
   #exec-board {
+    flex-wrap: wrap;
+    width: auto;
     flex-direction: column;
-
-
-
   }
+}
