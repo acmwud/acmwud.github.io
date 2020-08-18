@@ -39,7 +39,7 @@ button {
   font-family: "Trebuchet MS", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 1.1em;
-  flex-direction:column
+  flex-direction:column;
 }
 
 p {
@@ -125,11 +125,11 @@ p {
     text-align: center;
     width: auto;
   }
-
-  #exec-board {
+  #exec-board{
     flex-flow: column wrap;
   }
 }
+
 /* formatting for small window size or mobile applications */
 @media only screen and (max-width: 480px){
   button{
@@ -137,14 +137,19 @@ p {
     flex-grow: 1;
     width: auto;
   }
-
   .our-projects{
     flex-direction: column;
   }
-
-  #exec-board {
+  #exec-board{
     flex-wrap: wrap;
     width: auto;
     flex-direction: column;
+  }
+  #programmer-buttons{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #programmer{
+    width:75%;
   }
 }
