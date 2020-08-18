@@ -60,7 +60,7 @@ p {
 }
 #exec-board{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -127,9 +127,11 @@ p {
     width: auto;
   }
   .our-projects{
-    flex-wrap:wrap;
+    flex-direction: column;
+  }
+  #exec-board {
     flex-direction: column;
 
-  }
+
 
   }
