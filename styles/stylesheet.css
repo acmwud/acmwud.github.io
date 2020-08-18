@@ -125,6 +125,7 @@ p {
     text-align: center;
     width: auto;
   }
+
   #exec-board{
     flex-flow: column wrap;
   }
@@ -135,20 +136,37 @@ p {
   button{
     flex-wrap: wrap;
     flex-grow: 1;
-    width: auto;
+    align-items: center;
+    width: 75%;
+    height: 60%;
   }
+
+  p{
+    width: 90%;
+    margin: auto;
+  }
+
+  .mentor-button{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
   .our-projects{
     flex-direction: column;
   }
+
   #exec-board{
     flex-wrap: wrap;
-    width: auto;
     flex-direction: column;
+    width: auto;
   }
+
   #programmer-buttons{
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   #programmer{
     width:75%;
   }
