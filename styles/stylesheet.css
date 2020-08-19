@@ -1,6 +1,8 @@
 *{
   text-align: center;
 }
+
+
 nav{
   font-weight: bold;
   font-size: 1.1em;
@@ -30,13 +32,14 @@ button {
   background-color: #0069AA;
   color: white;
   text-align: center;
-  width: 14%;
+  width: auto;
   height: 3.5em;
   padding: 1em;
   border-radius: 10px;
   font-family: "Trebuchet MS", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 1.1em;
+  flex-direction:column;
 }
 
 p {
@@ -98,6 +101,8 @@ p {
 
 .mentor-button {
   margin: 1em 3.5em 1.5em 3.5em;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .project-button {
@@ -109,4 +114,70 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+}
+
+
+/* formatting for small-medium screens and landscape mode on phones */
+@media only screen and (max-width: 768px){
+  button{
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+  }
+
+  .our-projects h3{
+    flex-basis: 100%;
+  }
+
+  .our-projects{
+    flex-wrap: wrap;
+  }
+
+  #exec-board{
+    flex-flow: column wrap;
+  }
+
+}
+
+/* formatting for small window size or mobile applications */
+@media only screen and (max-width: 480px){
+  button{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    width: 75%;
+    height: 60%;
+  }
+
+  p{
+    width: 90%;
+    margin: auto;
+  }
+
+  .mentor-button{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .our-projects{
+    flex-direction: column;
+  }
+
+  #exec-board{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+  }
+
+  #programmer-buttons{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #programmer{
+    width:75%;
+  }
+
 }
