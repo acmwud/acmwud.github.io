@@ -126,9 +126,18 @@ p {
     width: auto;
   }
 
+  .our-projects h3{
+    flex-basis: 100%;
+  }
+
+  .our-projects{
+    flex-wrap: wrap;
+  }
+
   #exec-board{
     flex-flow: column wrap;
   }
+
 }
 
 /* formatting for small window size or mobile applications */
@@ -170,4 +179,5 @@ p {
   #programmer{
     width:75%;
   }
+
 }
