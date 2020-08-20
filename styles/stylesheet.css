@@ -1,8 +1,8 @@
 *{
   text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-
 nav{
   font-weight: bold;
   font-size: 1.1em;
@@ -15,7 +15,9 @@ nav{
   color: #FFFFFF;
   padding: 0.5em;
 }
-
+section {
+  padding: 5% 0 5% 0;
+}
 #options a {
   color: white;
   text-decoration: none;
@@ -58,6 +60,10 @@ p {
 #events{
   padding-top: 5%;
 }
+#events iframe {
+  width: 90%;
+  height: 80vh;
+}
 #exec-board{
   display: flex;
   flex-direction: row;
@@ -69,13 +75,26 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.0em;
+  padding: 0.5em;
 }
 /*headshot will be changed from a box to an image later*/
-#headshot{
-  background-color: #C4C4C4;
-  height: 1.0em;
-  width: 1.0em;
+#headshot img{
+  height: 10.0em;
+  width: 10.0em;
+}
+#profile-link{
+  color: #FFFFFF;
+}
+#exec-buttons{
+  flex-direction: row;
+}
+#exec-buttons *{
+  text-decoration: none;
+  color: #0069AA;
+  padding: 0.5em;
+  width: 25%;
+  border-radius: 15px;
+  margin: 1%;
 }
 #programmer-buttons{
   display: flex;
@@ -91,6 +110,7 @@ p {
   width: 25%;
   border-radius: 15px;
   margin: 1%;
+  flex-direction: row;
 }
 
 .heading, p {
@@ -115,6 +135,27 @@ p {
   align-items: center;
   justify-content: center;
 
+}
+.ted-cell{
+   width: 66%;
+   margin-right: 10px;
+   counter-increment: gallery-cell;
+}
+.ted-cell::before{
+  display: block;
+  text-align: center;
+  content: counter(ted-cell);
+  line-height: 200px;
+}
+footer {
+  background-color: #CFCFCF;
+  width: 100%;
+  height: 2.0em;
+  color: #FFFFFF;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  font-weight: bold;
 }
 
 
