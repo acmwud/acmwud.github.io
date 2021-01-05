@@ -77,10 +77,10 @@ p {
   justify-content: center;
   padding: 0.5em;
 }
-/*headshot will be changed from a box to an image later*/
 #headshot img{
   height: 10.0em;
   width: 10.0em;
+  border-radius: 50%;
 }
 #profile-link{
   color: #FFFFFF;
@@ -136,9 +136,14 @@ p {
   justify-content: center;
 
 }
+.ted-embed{
+  height: 75vh;
+  vertical-align: middle;
+}
 .ted-cell{
-   width: 66%;
-   margin-right: 10px;
+   width: 75%;
+   height: 100%;
+   margin-right: 2.5%;
    counter-increment: gallery-cell;
 }
 .ted-cell::before{
