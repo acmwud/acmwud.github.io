@@ -7,44 +7,8 @@ body {
   height: 100vh;
   margin: 0;
 }
-nav{
-  font-weight: bold;
-  font-size: 1.1em;
-  background: #0069AA;
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 2;
-  color: #FFFFFF;
-}
 section {
   padding: 2.5% 0 2.5% 0;
-}
-#options a {
-  color: white;
-  text-decoration: none;
-}
-
-#options a:active, #options a:hover {
-  border-style: solid;
-  border-color: #FFFFFF;
-  border-radius: 10px;
-  padding: 0.3em;
-}
-
-button {
-  background-color: #0069AA;
-  color: white;
-  text-align: center;
-  width: auto;
-  height: 3.5em;
-  padding: 1em;
-  border-radius: 10px;
-  font-family: "Trebuchet MS", "Helvetica", sans-serif;
-  font-weight: bold;
-  font-size: 1.1em;
-  flex-direction:column;
 }
 
 p {
