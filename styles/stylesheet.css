@@ -3,6 +3,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+  margin: 0;
+}
 nav{
   font-weight: bold;
   font-size: 1.1em;
@@ -13,10 +17,9 @@ nav{
   top: 0;
   z-index: 2;
   color: #FFFFFF;
-  padding: 0.5em;
 }
 section {
-  padding: 5% 0 5% 0;
+  padding: 2.5% 0 2.5% 0;
 }
 #options a {
   color: white;
@@ -58,7 +61,7 @@ p {
   float: right;
 }
 #events{
-  padding-top: 5%;
+  padding-top: 1.5%;
 }
 #events iframe {
   width: 90%;
@@ -154,15 +157,19 @@ p {
   content: counter(ted-cell);
   line-height: 200px;
 }
+#join {
+  height: 100vh;
+  margin-bottom: 5%;
+}
 footer {
-  background-color: #CFCFCF;
+  background-color: #C4C4C4;
   width: 100%;
-  height: 2.0em;
+  height: 1.5em;
   color: #FFFFFF;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
   font-weight: bold;
+  font-size: 0.75em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
