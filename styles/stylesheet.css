@@ -38,7 +38,7 @@ section {
   align-self: center;
   justify-content: center;
 }
-#programmer{
+/*#programmer{
   color: #FFFFFF;
   background-color: #0069AA;
   padding: 0.5em;
@@ -46,7 +46,7 @@ section {
   border-radius: 15px;
   margin: 1%;
   flex-direction: row;
-}
+}*/
 #projects{
   height: 25vh;
   padding-top: 2.5%;
