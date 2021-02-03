@@ -1,3 +1,195 @@
+@media screen and (min-width: 768px){
+  #logo{
+    width: 25%;
+    height: 25%;
+    padding-left: 2.5%;
+    float: left;
+  }
+  #join iframe{
+    width: 90%;
+    height: 1250px;
+  }
+  .projects{
+    height: 75vh;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+  .project-cell {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 25%;
+    background: #dfe0e1;
+    border-radius: 2.5%;
+    padding: 1%;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+  }
+  .project-cell *{
+    padding: 1%;
+  }
+  .project-links{
+    display: flex;
+    flex-direction: row;
+  }
+  .ted-embed{
+    height: 75vh;
+    vertical-align: middle;
+  }
+  #about{
+    height: 80vh;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+  #execs{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #execs .card{
+    width: 20%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px){
+  #logo{
+    width: 25%;
+    height: 25%;
+    padding-left: 2.5%;
+    float: left;
+  }
+  #join iframe{
+    width: 90%;
+    height: 1250px;
+  }
+  .projects{
+    height: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .project-cell {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 20%;
+    background: #dfe0e1;
+    border-radius: 2.5%;
+    padding: 2.5%;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+  }
+  .project-cell *{
+    padding: 2.5%;
+  }
+  .project-links{
+    display: flex;
+    flex-direction: row;
+  }
+  #about .heading{
+    margin-top: 5%;
+  }
+  #join .heading{
+    margin-bottom: 2.5%;
+  }
+  .ted-embed{
+    height: 50vh;
+    vertical-align: middle;
+  }
+  #execs{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2.5%;
+  }
+  #execs .card{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 480px){
+  #logo{
+    width: 50%;
+    height: 50%;
+    padding-left: 2.5%;
+    float: left;
+  }
+  .projects{
+    height: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .project-cell {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 20%;
+    background: #dfe0e1;
+    border-radius: 2.5%;
+    padding: 2.5%;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+  }
+  .project-cell *{
+    padding: 2.5%;
+  }
+  .project-links{
+    display: flex;
+    flex-direction: row;
+  }
+  #join iframe{
+    width: 90%;
+    height: 1350px;
+  }
+  #join .heading{
+    margin-top: 5%;
+  }
+  #execs{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2.5%;
+  }
+  #execs .card{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 380px){
+  #join iframe{
+    width: 100%;
+    height: 1400px;
+  }
+}
 *{
   text-align: center;
   -webkit-box-sizing: border-box;
@@ -10,59 +202,28 @@ body {
 section {
   padding: 1.5% 0 1.5% 0;
 }
-#logo{
-  width: 25%;
-  height: 25%;
-  padding-left: 2.5%;
-  float: left;
+.container-fluid{
+  flex-wrap: nowrap !important;
 }
 #events{
   padding-top: 1.5%;
+  height: 100vh;
 }
 #events iframe {
   width: 90%;
   height: 80vh;
 }
-#execs{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#projects-bg{
+  background:#f8f9fa;
+  padding-top: 2.5%;
 }
-#execs .card{
-  margin: 1%;
-}
-#exec-button{
-  text-decoration: none;
-  color: #0069AA;
-  width: 25%;
-  margin: 1%;
-}
-#programmer-buttons{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-}
-#projects{
-  height: 25vh;
+#meeting-content{
   padding-top: 2.5%;
   padding-bottom: 5%;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
 }
-.our-projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-width: 25%;
-}
-.ted-embed{
-  height: 75vh;
-  vertical-align: middle;
+#meeting-content .heading{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 .ted-cell{
    width: 75%;
@@ -78,9 +239,21 @@ section {
   content: counter(ted-cell);
   line-height: 200px;
 }
+#about{
+  background:#f8f9fa;
+  padding: 5%;
+}
+#execs .card{
+  margin: 1%;
+}
+#exec-button{
+  text-decoration: none;
+  color: #0069AA;
+  width: 25%;
+  margin: 1%;
+}
 #join {
-  height: 100vh;
-  margin-bottom: 5%;
+  height: 100%;
 }
 footer {
   background-color: #C4C4C4;

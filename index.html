@@ -12,18 +12,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-<title>ACM-W at UD</title>
+<title>ACM-W @ UD</title>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark py-1" style="background-color:#0069AA;color:#FFFFFF;">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" style="background-color:#0069AA;color:#FFFFFF;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img id="logo" src="pictures/acmwlogo.jpg"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0">
+      <ul class="navbar-nav py-0">
         <li class="nav-item">
           <a class="nav-link active" href="#events">events</a>
         </li>
@@ -52,25 +52,34 @@
 <section>
 <div id="resources">
 
+<div id="projects-bg">
 <h2 class="heading">Our Projects</h2>
-<div id="projects">
-<div class="our-projects">
+<div class="projects">
+<div class="project-cell">
 <h3 class="heading">Mentorship Program</h3>
+<div class="project-links">
 <a href="https://forms.gle/qBjEBZUMLRzHdqJU7"><button class="btn btn-light">Get A Mentor</button></a>
 <a href="https://forms.gle/nYj4bWPKAvMkZmGBA"><button class="btn btn-light">Become A Mentor</button></a>
 </div>
-<div class="our-projects">
+</div>
+<div class="project-cell">
 <h3 class="heading">WIT Media</h3>
+<div class="project-links">
 <a href="https://forms.gle/j3pQkT7xai8doqMMA"><button class="btn btn-light">Submit Media</button></a>
 <a href="https://docs.google.com/document/d/1VVrZybqxFiXfx4ktajbqoNahKZui108HwzNN2uQ_kk8/edit?usp=sharing"><button class="btn btn-light">View the List</button></a>
 </div>
-<div class="our-projects">
-<h3 class="heading" style="margin: 0 0 0 -1em">Rate My Prof</h3>
+</div>
+<div class="project-cell">
+<h3 class="heading">Rate My Professor</h3>
+<div class="project-links">
 <a href="https://forms.gle/QVCJopWvhA7VgPZ49"><button class="btn btn-light">Submit a Rating</button></a>
-<button class="btn btn-light">View the List</button>
+<a><button class="btn btn-light">View the List</button></a>
+</div>
+</div>
 </div>
 </div>
 
+<div id="meeting-content">
 <h2 class="heading">Meeting Content</h2>
 <!--embed videos and articles from 2019-2020 list here-->
 <div class="ted-embed js-flickity">
@@ -83,6 +92,7 @@
 <div class="ted-cell"><iframe src="https://embed.ted.com/talks/lang/en/simone_giertz_why_you_should_make_useless_things" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
 </div>
 </div>
+</div>
 </section>
 
 <section>
@@ -90,7 +100,7 @@
 <h2 class="heading">2020-2021 Executive Board</h2>
 
 <div id ="execs">
-<div class="card" style="width: 20%;">
+<div class="card">
   <img src="pictures/sarah.jpg" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Sarah Joyce</h5>
@@ -101,7 +111,7 @@
   </ul>
 </div>
 
-<div class="card" style="width: 20%;">
+<div class="card">
   <img src="pictures/bonnie.jpg" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Bonnie Skiena</h5>
@@ -112,7 +122,7 @@
   </ul>
 </div>
 
-<div class="card" style="width: 20%;">
+<div class="card">
   <img src="pictures/carrie.jpg" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Caroline Graham</h5>
@@ -123,7 +133,7 @@
   </ul>
 </div>
 
-<div class="card" style="width: 20%;">
+<div class="card">
   <img src="pictures/erin.jpg" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Erin Wallace</h5>
@@ -139,7 +149,7 @@
 <section>
 <div id="join">
 <h2 class="heading">Join Our Chapter</h2>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1oBEudjJOaS5L62UwJtSnYrXQm6RmpiUFJUBTYsPzDJyhYA/viewform?embedded=true" width="50%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1oBEudjJOaS5L62UwJtSnYrXQm6RmpiUFJUBTYsPzDJyhYA/viewform?embedded=true" width="50%" frameborder="0" marginheight="0" marginwidth="0" padding="0">Loading…</iframe>
 </div>
 </section>
 </body>
