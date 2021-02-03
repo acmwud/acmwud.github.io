@@ -8,7 +8,13 @@ body {
   margin: 0;
 }
 section {
-  padding: 2.5% 0 2.5% 0;
+  padding: 1.5% 0 1.5% 0;
+}
+#logo{
+  width: 25%;
+  height: 25%;
+  padding-left: 2.5%;
+  float: left;
 }
 #events{
   padding-top: 1.5%;
