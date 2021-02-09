@@ -221,7 +221,6 @@ section {
   flex-direction: row;
 }
 #events{
-  padding-top: 1.5%;
   height: 100vh;
 }
 #events iframe {
